@@ -30,6 +30,5 @@ jobs:
         run:  pi
 
       # Runs a set of commands using the runners shell
-      - name: pi
-        run: |actions/checkout@v3
-        
+      - name: Checkout repository
+        uses: actions/checkout@v3
